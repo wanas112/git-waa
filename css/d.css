@@ -1,0 +1,108 @@
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url("bk.jpg");
+  /*  background-color: #E0F7FA;*/
+    color: #333;
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    background-color: #0288D1;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.login-container {
+    margin-top: 80px;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: #0277BD;
+    border-style: dashed;
+     
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login-container h1 {
+    color: #0277BD;
+}
+
+input[type="text"], input[type="password"] {
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #0288D1;
+    border-radius: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+button {
+    background-color: #0288D1;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0277BD;
+}
+
+footer {
+    background-color: #0288D1;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+nav ul li :hover{
+    color: #000000;
+}
+footer ul li :hover{
+    color: #000;
+} 
